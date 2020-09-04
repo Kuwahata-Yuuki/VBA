@@ -1,0 +1,5 @@
+Sub 練習
+Range("A3").Value = "おはよう"
+        Worksheets.Add , Worksheets("Sheet1"), 2
+        Worksheets("Sheet1").Select
+End Sub
