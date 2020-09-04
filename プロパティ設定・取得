@@ -1,0 +1,4 @@
+Sub 練習
+　Range("A3").Value = "おはよう"
+        MsgBox ActiveSheet.Name
+End Sub
