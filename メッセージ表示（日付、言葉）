@@ -1,0 +1,13 @@
+Sub メッセージ表示()
+'
+' メッセージ表示 Macro
+'
+' Keyboard Shortcut: Ctrl+b
+
+
+MsgBox "おはようございます"
+MsgBox "今日は「" & Date & "」です", vbInformation
+
+
+    
+End Sub
