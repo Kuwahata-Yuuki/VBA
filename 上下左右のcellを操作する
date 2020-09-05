@@ -1,0 +1,11 @@
+
+Sub 変数練習()
+
+        With Range("B2")
+            .Offset(-1).Value = "上"
+            .Offset(, -1).Value = "左"
+            .Offset(3, 1).Value = "3つ下1つ右"
+        End With
+
+
+    End Sub
