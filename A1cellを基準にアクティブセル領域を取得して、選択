@@ -1,0 +1,10 @@
+Sub 表内のセルを参照する()
+        '
+        ' 表内のセルを参照する Macro
+        '
+        ' Keyboard Shortcut: Ctrl+b
+        '
+        Range("A3").CurrentRegion.Select
+
+
+    End Sub
