@@ -1,0 +1,12 @@
+ Sub 書式と列幅をコピー()
+ 
+ Range("A3:B7").Copy
+        With Range("D3")
+            .PasteSpecial xlPasteFormats
+            .PasteSpecial xlPasteColumuWidths
+
+        End With
+
+        Application.CutCopyMode = False
+        
+   End Sub
