@@ -1,0 +1,5 @@
+Sub セル範囲を拡張して選択()
+
+ Range("B4").Resize(3, 2).Select
+
+End Sub
