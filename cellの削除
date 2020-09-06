@@ -1,0 +1,9 @@
+Sub セルの削除()
+
+ Range("A4").Resize(, 3).Delete Shift:=xlShiftUp
+
+ 'xlShiftToLeftはセルを削除後、左にずらす,xlShiftUpはセルを削除後、上にずらす'
+
+        'Range("B3",Range("B3").End(xlDown)).Delete Shift:=xlShiftToLeft'
+
+End Sub
