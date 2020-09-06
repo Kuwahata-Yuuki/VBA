@@ -1,0 +1,5 @@
+ Sub 文字や数値データの削除()
+ 
+  Range("A4:E9").SpecialCells(xlCellTypeConstants, xlNumbers + xlTextValues).ClearContents
+ 
+ End Sub
