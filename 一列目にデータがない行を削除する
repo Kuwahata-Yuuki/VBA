@@ -1,0 +1,5 @@
+Sub E列が空欄の行を削除()
+
+ Range("E4:E9").SpecialCells(xlCellTypeBlanks).EntireRow.Delete
+
+End Sub
