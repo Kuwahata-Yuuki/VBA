@@ -1,0 +1,5 @@
+Sub sakuzyo()
+
+        Range("A4", Range("A4").End(xlDown).End(xlToRight)).ClearContents
+
+    End Sub
