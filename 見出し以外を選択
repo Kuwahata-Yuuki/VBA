@@ -1,0 +1,7 @@
+Sub 見出し以外を選択()
+
+Dim セル範囲 As Range
+        Set セル範囲 = Range("A3").CurrentRegion
+        セル範囲.Offset(1, 1).Resize(セル範囲.Rows.Count - 1, セル範囲.Columns.Count - 1).Select
+
+End Sub
