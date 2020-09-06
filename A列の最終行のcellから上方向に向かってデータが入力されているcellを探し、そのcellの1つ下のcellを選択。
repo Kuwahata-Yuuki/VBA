@@ -1,0 +1,5 @@
+ Sub 変数練習()
+
+        Cells(Rows.Count, 1).End(xlUp).Offset(1).Select
+
+    End Sub
