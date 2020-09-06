@@ -1,0 +1,6 @@
+Sub 表の移動()
+ 
+    Range("A3:B7").Cut Range("D3")
+
+
+End Sub
