@@ -1,0 +1,9 @@
+Sub 空白のセル選択()
+'
+' 空白のセル選択 Macro
+
+Range("B3:F9").SpecialCells(xlCellTypeBlanks).Select
+'
+
+'
+End Sub
