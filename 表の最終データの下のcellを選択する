@@ -1,0 +1,5 @@
+Sub 変数練習()
+
+        Range("A3").End(xlDown).Offset(1).Select
+
+    End Sub
