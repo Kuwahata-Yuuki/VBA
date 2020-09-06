@@ -1,0 +1,5 @@
+ Sub 変数練習()
+
+        Range("A8", Range("A8").End(xlDown).End(xlToRight)).Select
+
+    End Sub
