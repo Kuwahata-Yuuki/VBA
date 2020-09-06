@@ -1,0 +1,10 @@
+Sub 表を複数コピー()
+
+ Range("A3:B7").Copy
+        ActiveSheet.Paste Range("D3")
+        ActiveSheet.Paste Range("G3")
+        Application.CutCopyMode = False
+
+        'クリップボードにコピーされた情報を貼り付けるには、Pasteメソッドを使用する。'
+
+End Sub
