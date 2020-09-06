@@ -1,0 +1,9 @@
+Sub セルの挿入()
+'
+' セルの挿入 Macro
+'
+' Keyboard Shortcut: Ctrl+b
+'
+   
+    Range("A4").Resize(, 3).Insert Shift:=xlShiftDown, CopyOrigin:=xlFormatFromRightOrBelow
+End Sub
