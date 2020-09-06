@@ -1,0 +1,6 @@
+Sub データ入力()
+
+
+ Range("A1").Value = "買い物リスト"
+
+End Sub
