@@ -1,0 +1,5 @@
+Sub 表のコピー()
+
+ Range("A3:B7").Copy Range("D3")
+
+End Sub
