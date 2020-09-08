@@ -1,0 +1,9 @@
+
+Sub 行の削除()
+
+ Rows("6:7").Delete
+
+        'オブジェクト.Delete([Shift])'
+        'Shiftは削除した後にずらす方向を指定する'
+
+End Sub
