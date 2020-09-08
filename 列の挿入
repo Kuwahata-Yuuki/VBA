@@ -1,0 +1,5 @@
+Sub 列の挿入()
+ Columns("B:D").Insert CopyOrigin:=xlFormatFromRightOrBelow
+
+
+End Sub
