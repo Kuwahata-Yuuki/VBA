@@ -1,0 +1,7 @@
+
+Sub 列の非表示()
+
+
+Columns("D:E").Hidden = True
+
+End Sub
