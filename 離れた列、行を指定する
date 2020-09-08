@@ -1,0 +1,5 @@
+Sub 離れた列行選択()
+
+Range("3:5,8:9,B:C,F:H").Select
+
+End Sub
