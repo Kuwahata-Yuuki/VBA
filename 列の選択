@@ -1,0 +1,5 @@
+Sub 列の選択()
+
+Columns("D:E").Select
+
+End Sub
