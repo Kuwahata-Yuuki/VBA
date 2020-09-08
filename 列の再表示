@@ -1,0 +1,6 @@
+
+Sub 列の再表示()
+
+ Columns("D:E").Hidden = False
+
+End Sub
