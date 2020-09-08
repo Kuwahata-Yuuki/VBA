@@ -1,1 +1,14 @@
-# VBA
+Sub シート名の変更()
+
+Dim name As String
+
+        name = InputBox("シート名を入力してください", "シート名の変更")
+
+        If name <> "" Then
+
+            ActiveSheet.name = name
+
+        End If
+
+End Sub
+
