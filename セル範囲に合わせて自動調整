@@ -1,0 +1,5 @@
+Sub セルの範囲に合わせて自動調整()
+
+Range("A3").CurrentRegion.Columns.AutoFit
+
+End Sub
